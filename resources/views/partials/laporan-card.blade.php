@@ -2,6 +2,7 @@
     <p><strong>Nama Pelapor:</strong> {{ $item['nama_pelapor'] }}</p>
     <p><strong>Lokasi:</strong> {{ $item['lokasi'] }}</p>
     <p><strong>Tinggi Genangan:</strong> {{ $item['tinggi_genangan'] }} cm</p>
+    <p><strong>Tanggal Kejadian:</strong> {{ $item['tanggal_kejadian'] }}</p>
     <p><strong>Status:</strong> 
         @if($item['tinggi_genangan'] < 30)
             <span class="badge badge-waspada">Waspada</span>
